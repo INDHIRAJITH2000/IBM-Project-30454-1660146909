@@ -1,0 +1,10 @@
+import random
+a=random.randint(20,140)
+b=random.randint(30,50)
+print("The Temperature is",a)
+print("The humidity is",b)
+if(a>30):
+ print("HIGH TEMPERATURE!!!")
+else:
+ print("Temperature is within the range!")
+
