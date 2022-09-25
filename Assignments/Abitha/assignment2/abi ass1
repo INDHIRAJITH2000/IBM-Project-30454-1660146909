@@ -1,0 +1,10 @@
+import random
+temp=random.randint(30,200)
+humid=random.randint(40,70)#normal humidity range:40 to 70%
+print("The Temperature is",temp)
+print("The humidity is",humid)
+if(temp>30):#normal room temp=30 to 40(degree celsius)
+ print("HIGH TEMPERATURE IS DETECTED!")
+else:
+ print("The Temperature is within the range!")   
+    
